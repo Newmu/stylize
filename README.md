@@ -5,6 +5,8 @@ Regressor based image stylization.
 
 Inspired by the [various](http://alteredqualia.com/visualization/evolve/) [projects](http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/) implementing polygonal stylization of images via blends of genetic algorithms and hill climbing and [Andrej Karpathy's](http://cs.stanford.edu/people/karpathy/convnetjs/demo/image_regression.html) rephrasing of the problem in a machine learning framework.
 
+Whereas genetic algorithm and hill climbing approaches can take hours, stylize runs in seconds with much greater flexibility and higher fidelity when desired.
+
 Usage (example.py has more detail): 
 ```
 from stylize import render
