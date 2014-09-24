@@ -14,9 +14,9 @@ img = imread('resources/iggy.jpg')
 defaults = render(img)
 ```
 
-## Our Test Subject
-![Iggy](/resources/iggy_small.jpg?raw=true "My cat Iggy looking confused")
-## Default stylization with stylize
-![Iggy](/resources/defaults_small.png?raw=true "Default stylization with stylize")
+Our Test Subject  | Default stylization with stylize
+------------- | -------------
+![Iggy](/resources/iggy_small.jpg?raw=true "My cat Iggy looking confused")  | ![Iggy](/resources/defaults_small.png?raw=true "Default stylization with stylize")
+
 ## Visualizing how it works
 ![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")
