@@ -16,7 +16,15 @@ defaults = render(img)
 
 Our Test Subject, my cat Iggy  | Default stylization with stylize
 ------------- | -------------
-![Iggy](/resources/iggy_small.jpg?raw=true "My cat Iggy looking confused")  | ![Iggy](/resources/defaults_small.png?raw=true "Default stylization with stylize")
+![Iggy](/resources/iggy_small.jpg?raw=true "Iggy looking confused")  | ![Iggy](/resources/defaults_small.png?raw=true "Default stylization with stylize")
+
+Abstract  | Smooth
+------------- | -------------
+![Iggy](/example_images/abstract.png?raw=true "Abstract Iggy")  | ![Iggy](/example_images/smoother.png?raw=true "Smooth Iggy")
+
+More Detail  | Less Detail
+------------- | -------------
+![Iggy](/example_images/more_detail.png?raw=true "Iggy in all his glory")  | ![Iggy](/example_images/less_detail.png?raw=true "Iggy in low fidelity")
 
 #### Visualizing how it works
 ![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")
