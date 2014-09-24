@@ -27,9 +27,7 @@ More Detail render(img,ratio=0.00005) | Less Detail render(img,ratio=0.001)
 ------------- | -------------
 ![Iggy](/example_images/more_detail.png?raw=true "Iggy in all his glory")  | ![Iggy](/example_images/less_detail.png?raw=true "Iggy in low fidelity")
 
-Visualizing how it works | The low down
-------------- | -------------
-![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")  | stylize is currently based off of a decision tree regressor and an ensembled generalization of that model, the random forest regressor. DTRs work by recursively partitoning ("splitting") their input feature space and assigning associations to those partitions. Controlling various hyperparameters such as the depth of the tree, size of pixel samples allowed to make decisions on, and the number of trees allows stylize to have a great variety of actual stylize all built off the same model.
+#### Visualizing how it works 
+![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")  
 
-#### Visualizing how it works
-![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")
+stylize is currently based off of a regression trees and an ensembled generalization of that model, the random forest regressor. Regression trees work by recursively partitoning ("splitting") their input feature space and assigning associations to those partitions. Using various coordinate features as input and setting various hyperparameters such as the depth of the tree, a minimum size to each partition, and the number of trees allows stylize to have a great variety of actual stylization all built on top of the same model.
