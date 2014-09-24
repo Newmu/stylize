@@ -10,7 +10,7 @@ Usage (example.py has more detail):
 from stylize import render
 from scipy.misc import imread
 
-image = imread('resources/iggy.jpg')
+image = imread('resources/iggy_small.jpg')
 defaults = render(image)
 ```
 
@@ -28,4 +28,5 @@ More Detail `render(image,ratio=0.00005)` | Less Detail `render(image,ratio=0.00
 
 Visualizing how it works | Why
 ------------- | -------------
-![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")  | stylize is currently based off of regression trees and an ensembled generalization of that model, the random forest regressor. Regression trees work by recursively partitoning ("splitting") their input feature space and assigning associations to those partitions (such as colors). At each frame the model splits every partition in half again until hitting its minimum partition size, click the gif to see a larger version!
+![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")  | stylize is currently based off of regression trees and an ensembled version of that model, the random forest regressor. Regression trees work by recursively partitoning ("splitting") their input feature space and assigning associations to those partitions (such as colors). At each frame the model splits every partition in half again until hitting its minimum partition size, click the gif to see a larger version!
+
