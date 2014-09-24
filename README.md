@@ -30,4 +30,4 @@ More Detail `render(image,ratio=0.00005)` | Less Detail `render(image,ratio=0.00
 
 Visualizing how it works | Why
 ------------- | -------------
-![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")  | stylize is currently based off of regression trees and an ensembled generalization of that model, the random forest regressor. Regression trees work by recursively partitoning ("splitting") their input feature space and assigning associations to those partitions (such as colors). At each frame the model splits every partition in half again until hitting its minimum partition size.
+![Iggy](/resources/iggy.gif?raw=true "Visualizing how it works")  | stylize is currently based off of regression trees and an ensembled generalization of that model, the random forest regressor. Regression trees work by recursively partitoning ("splitting") their input feature space and assigning associations to those partitions (such as colors). At each frame the model splits every partition in half again until hitting its minimum partition size, click the gif to see a larger version!
